@@ -27,7 +27,7 @@ public class ToRemoveTest extends ToRemove implements TestPriority {
 
 
     @Test(description = "checking multiplication result", priority = HIGH)
-    public void testTestMultiply() {
+    public void testMultiply() {
         int a = 2;
         long b = 3_000_000L;
         double actualResult = multiply(a, b);
@@ -37,7 +37,7 @@ public class ToRemoveTest extends ToRemove implements TestPriority {
     }
 
     @Test(description = "verify DESC order", priority = MEDIUM)
-    public void testTestSortDesc() {
+    public void testSortDesc() {
         int[] testArray = {144, 30, 30, 34, 36, 144, 39, 45, -21, 89};
         int[] expectedArray = {144, 144, 89, 45, 39, 36, 34, 30, 30, -21};
         final String message = "DESC sorting failed: ";
@@ -46,7 +46,7 @@ public class ToRemoveTest extends ToRemove implements TestPriority {
     }
 
     @Test(description = "verify ASC order", priority = MEDIUM)
-    public void testTestSortAsc() {
+    public void testSortAsc() {
         int[] testArray = {144, 30, 30, 34, 36, 144, 39, 45, -21, 89};
         int[] expectedArray = {-21, 30, 30, 34, 36, 39, 45, 89, 144, 144};
         final String message = "ASC sorting failed: ";
@@ -55,7 +55,7 @@ public class ToRemoveTest extends ToRemove implements TestPriority {
     }
 
     @Test(description = "verify concatenation string with space ", priority = LOW)
-    public void testTestJoin() {
+    public void testJoin() {
         String[] testStrings = {"apple", "banana", "orange", "mango"};
         String actualResult = join(testStrings);
         String expectedResult = "apple banana orange mango";
