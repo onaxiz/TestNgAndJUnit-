@@ -27,7 +27,6 @@ public class ToRemoveTest extends ToRemove {
         assertEquals(actualResult, expectedResult, message);
     }
 
-
     @Test
     //assertEqualsNoOrder?
     public void testTestSortDesc() {
@@ -55,7 +54,6 @@ public class ToRemoveTest extends ToRemove {
         final String message = "joining failed: ";
         assertEquals(actualResult, expectedResult, message);
     }
-
 
     @Test
     public void testToPersonDto() {
