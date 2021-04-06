@@ -63,7 +63,7 @@ public class ToRemove {
 
     /**
      * Sorts input array of integers in DESC order.
-     * @param arr array of integers to be sorted in DESC order.
+     * @param arr array of integers to be sorted in c.
      */
     public static void sortDesc(int[] arr) {
         for (int i = 0; i < arr.length - 1; i++) {

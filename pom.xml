@@ -13,11 +13,22 @@
             <artifactId>lombok</artifactId>
             <version>1.18.8</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.4.0</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <properties>
         <maven.compiler.source>15</maven.compiler.source>
         <maven.compiler.target>15</maven.compiler.target>
     </properties>
+
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+
 
 </project>
