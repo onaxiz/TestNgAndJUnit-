@@ -9,7 +9,9 @@ import java.util.stream.Collectors;
 
 public class ToRemove {
 
-    @Data    @AllArgsConstructor    @Builder
+    @Data
+    @AllArgsConstructor
+    @Builder
     public static class Person {
         long id;
         String name, surname, nickname;
