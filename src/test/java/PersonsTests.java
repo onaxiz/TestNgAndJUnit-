@@ -8,7 +8,7 @@ public class PersonsTests {
     @Rule
     ToRemove.Person simplePerson = new ToRemove.Person(1L, "a", "b", "fd",
             LocalDate.parse("2021-04-10"));
-
+    @Rule
     ToRemove.PersonDto personDto = new ToRemove.PersonDto(Long.valueOf(1L).toString(), "a", "b", "fd",
             "2021-04-10");
 
